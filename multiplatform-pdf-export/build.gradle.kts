@@ -10,12 +10,12 @@ plugins {
 
 mavenPublishConfig {
     description = "A Compose Multiplatform library for exporting UI content to PDF across desktop and mobile platforms."
-    url = "https://github.com/ch4rl3x/HtmlText"
+    url = "https://github.com/ch4rl3x/compose-multiplatform-pdf-export"
 
     scm {
-        connection = "scm:git:github.com/ch4rl3x/HtmlText.git"
-        developerConnection = "scm:git:ssh://github.com/ch4rl3x/HtmlText.git"
-        url = "https://github.com/ch4rl3x/HtmlText/tree/main"
+        connection = "scm:git:github.com/ch4rl3x/compose-multiplatform-pdf-export.git"
+        developerConnection = "scm:git:ssh://github.com/ch4rl3x/compose-multiplatform-pdf-export.git"
+        url = "https://github.com/ch4rl3x/compose-multiplatform-pdf-export/tree/main"
     }
 
     developers {
