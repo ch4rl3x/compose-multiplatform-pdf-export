@@ -1,6 +1,6 @@
 # Compose Multiplatform PDF Export
 <a href="https://github.com/ch4rl3x/compose-multiplatform-pdf-export/actions?query=workflow%3ABuild"><img src="https://github.com/ch4rl3x/compose-multiplatform-pdf-export/actions/workflows/build.yml/badge.svg" alt="Build"></a>
-[![Maven Central](https://img.shields.io/maven-central/v/de.charlex.compose/compose-multiplatform-pdf-export)](https://central.sonatype.com/artifact/de.charlex.compose/compose-multiplatform-pdf-export)
+[![Maven Central](https://img.shields.io/maven-central/v/de.charlex.compose/multiplatform-pdf-export)](https://central.sonatype.com/artifact/de.charlex.compose/multiplatform-pdf-export)
 
 A Compose Multiplatform library for exporting UI content to **vector** PDFs across Android, iOS, and JVM/desktop.
 
