@@ -1,0 +1,23 @@
+name: Build
+description: Build
+
+runs:
+  using: "composite"
+  steps:
+    - uses: ./.github/workflows/actions/prepare
+
+    - name: Build html-text-material
+      shell: bash
+      run: ./gradlew :html-text-material:assembleRelease
+
+    - name: Build html-text-material3
+      shell: bash
+      run: ./gradlew :html-text-material3:assembleRelease
+
+    - name: Build sample apps
+      shell: bash
+      run: ./gradlew :sample-app:android-app:assembleRelease
+
+    - name: Build dokka
+      shell: bash
+      run: ./gradlew dokkaGeneratePublicationHtml
