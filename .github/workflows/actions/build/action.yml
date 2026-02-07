@@ -6,17 +6,13 @@ runs:
   steps:
     - uses: ./.github/workflows/actions/prepare
 
-    - name: Build html-text-material
+    - name: Build compose-multiplatform-pdf-export
       shell: bash
-      run: ./gradlew :html-text-material:assembleRelease
-
-    - name: Build html-text-material3
-      shell: bash
-      run: ./gradlew :html-text-material3:assembleRelease
+      run: ./gradlew :multiplatform-pdf-export:assemble
 
     - name: Build sample apps
       shell: bash
-      run: ./gradlew :sample-app:android-app:assembleRelease
+      run: ./gradlew :sample:androidApp:assembleRelease
 
     - name: Build dokka
       shell: bash
