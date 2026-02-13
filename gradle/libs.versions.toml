@@ -33,7 +33,7 @@ material3-multiplatform = "1.10.0-alpha05"
 filekit = "0.12.0"
 batik = "1.17"
 fop = "2.9"
-pdfbox = "2.0.30"
+pdfbox = "3.0.6"
 
 [libraries]
 
